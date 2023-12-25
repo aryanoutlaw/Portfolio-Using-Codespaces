@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://{aryanoutlaw}.github.io/{Portfolio-Using-Codespaces}'",
+    "build-gh": "parcel build --public-url 'https://aryanoutlaw.github.io/{Portfolio-Using-Codespaces}'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
