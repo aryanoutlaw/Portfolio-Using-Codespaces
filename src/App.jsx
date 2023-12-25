@@ -37,12 +37,13 @@ const siteProps = {
 
 const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
+const titleColor = "#FFFFFF";
 
 const App = () => {
   return (
     <div id="main">
       <Header />
-      <Home name={siteProps.name} title={siteProps.title} style={{ color: "white" }} />
+      <Home name={siteProps.name} title={siteProps.title} style={{ color: titleColor }} />
       <About />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
