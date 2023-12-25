@@ -31,28 +31,21 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    title: "A Graphical User Interface Calculator",
+    description: "A graphical user interface calculator made using Python and Tkinter.",
+    url: "https://github.com/aryanoutlaw/CODSOFT/blob/main/Calculator_Task2.py",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Random Password Generator",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "The Project emphasizes security with Python's random module for robust passwords, and a PySimpleGUI-based interface for user-friendly functionality.",
+    url: "https://github.com/aryanoutlaw/CODSOFT/blob/main/password_generator.py",
   },
   {
-    title: "My Resume Site",
+    title: "A Simple Weather WebApp",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Explore live weather dynamics with the GUI Weather WebApp, integrating Google Search for accuracy, and PySimpleGUI for user-friendly, visually appealing updates.",
+    url: "https://github.com/aryanoutlaw/CODSOFT/blob/main/Weather_forecast.py",
   },
 ];
 
@@ -64,7 +57,12 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "1s ease-out 0s 1 slideIn",
+            }}
             alt={imageAltText}
           />
         </div>
